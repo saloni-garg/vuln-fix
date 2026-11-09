@@ -1,0 +1,156 @@
+{
+  "aiohttp-cve-2024-23334": {
+    "prompt_chars": 42732,
+    "prompt_tokens": 9479,
+    "completion_chars": 1855,
+    "completion_tokens": 397
+  },
+  "aiohttp-cve-2025-69226": {
+    "prompt_chars": 45492,
+    "prompt_tokens": 10117,
+    "completion_chars": 1990,
+    "completion_tokens": 522
+  },
+  "dulwich-cve-2026-42563": {
+    "prompt_chars": 9398,
+    "prompt_tokens": 1973,
+    "completion_chars": 1929,
+    "completion_tokens": 510
+  },
+  "dulwich-cve-2026-47712": {
+    "prompt_chars": 64011,
+    "prompt_tokens": 14004,
+    "completion_chars": 2449,
+    "completion_tokens": 702
+  },
+  "dulwich-cve-2026-52726": {
+    "prompt_chars": 195917,
+    "prompt_tokens": 42955,
+    "completion_chars": 7826,
+    "completion_tokens": 2011
+  },
+  "jinja2-cve-2024-22195": {
+    "prompt_chars": 54755,
+    "prompt_tokens": 13745,
+    "completion_chars": 1665,
+    "completion_tokens": 477
+  },
+  "jinja2-cve-2024-34064": {
+    "prompt_chars": 55259,
+    "prompt_tokens": 13872,
+    "completion_chars": 2153,
+    "completion_tokens": 607
+  },
+  "mistune-cve-2026-115355": {
+    "prompt_chars": 3644,
+    "prompt_tokens": 790,
+    "completion_chars": 4234,
+    "completion_tokens": 1014
+  },
+  "mistune-cve-2026-44708": {
+    "prompt_chars": 3179,
+    "prompt_tokens": 770,
+    "completion_chars": 884,
+    "completion_tokens": 279
+  },
+  "mistune-cve-2026-44896": {
+    "prompt_chars": 6572,
+    "prompt_tokens": 1558,
+    "completion_chars": 601,
+    "completion_tokens": 204
+  },
+  "mistune-cve-2026-44897": {
+    "prompt_chars": 6109,
+    "prompt_tokens": 1498,
+    "completion_chars": 491,
+    "completion_tokens": 165
+  },
+  "mistune-cve-2026-44898": {
+    "prompt_chars": 4902,
+    "prompt_tokens": 1145,
+    "completion_chars": 753,
+    "completion_tokens": 245
+  },
+  "mistune-cve-2026-44899": {
+    "prompt_chars": 6611,
+    "prompt_tokens": 1560,
+    "completion_chars": 449,
+    "completion_tokens": 176
+  },
+  "mistune-cve-2026-59923": {
+    "prompt_chars": 6205,
+    "prompt_tokens": 1516,
+    "completion_chars": 1458,
+    "completion_tokens": 422
+  },
+  "mistune-cve-2026-59924": {
+    "prompt_chars": 3683,
+    "prompt_tokens": 796,
+    "completion_chars": 4234,
+    "completion_tokens": 1014
+  },
+  "mistune-cve-2026-59926": {
+    "prompt_chars": 3366,
+    "prompt_tokens": 750,
+    "completion_chars": 682,
+    "completion_tokens": 225
+  },
+  "mistune-cve-2026-59929": {
+    "prompt_chars": 6184,
+    "prompt_tokens": 1506,
+    "completion_chars": 1458,
+    "completion_tokens": 422
+  },
+  "bleach-cve-2021-23980": {
+    "prompt_chars": 43438,
+    "prompt_tokens": 9394
+  },
+  "gitpython-cve-2023-41040": {
+    "prompt_chars": 30992,
+    "prompt_tokens": 6730
+  },
+  "mako-cve-2026-41205": {
+    "prompt_chars": 24905,
+    "prompt_tokens": 5275
+  },
+  "setuptools-cve-2025-47273": {
+    "prompt_chars": 40856,
+    "prompt_tokens": 9348
+  },
+  "django-cve-2024-39330": {
+    "prompt_chars": 11258,
+    "prompt_tokens": 2270
+  },
+  "django-cve-2025-59682": {
+    "prompt_chars": 9151,
+    "prompt_tokens": 1845
+  },
+  "django-cve-2024-42005": {
+    "prompt_chars": 118640,
+    "prompt_tokens": 23800
+  },
+  "django-cve-2025-57833": {
+    "prompt_chars": 120980,
+    "prompt_tokens": 24204
+  },
+  "django-cve-2025-64459": {
+    "prompt_chars": 127494,
+    "prompt_tokens": 25731
+  },
+  "django-cve-2026-1287": {
+    "prompt_chars": 121155,
+    "prompt_tokens": 24241
+  },
+  "django-cve-2026-1312": {
+    "prompt_chars": 213914,
+    "prompt_tokens": 41682
+  },
+  "pyjwt-cve-2026-102267": {
+    "prompt_chars": 10676,
+    "prompt_tokens": 2494
+  },
+  "pyjwt-cve-2026-48522": {
+    "prompt_chars": 9912,
+    "prompt_tokens": 2338
+  }
+}

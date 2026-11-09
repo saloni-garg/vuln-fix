@@ -1,0 +1,1744 @@
+{
+  "arms": {
+    "PLUMB": {
+      "test": {
+        "n_rollouts": 18,
+        "mean_reward": 1.0,
+        "pass_rate": 1.0,
+        "visible_block_rate": 1.0,
+        "mutant_block_rate": 1.0,
+        "taxonomy_band_counts": {},
+        "taxonomy_all_counts": {
+          "pass": 18
+        }
+      },
+      "ood": {
+        "n_rollouts": 21,
+        "mean_reward": 1.0,
+        "pass_rate": 1.0,
+        "visible_block_rate": 1.0,
+        "mutant_block_rate": 1.0,
+        "taxonomy_band_counts": {},
+        "taxonomy_all_counts": {
+          "pass": 21
+        }
+      },
+      "combined": {
+        "n_rollouts": 39,
+        "mean_reward": 1.0,
+        "pass_rate": 1.0,
+        "visible_block_rate": 1.0,
+        "mutant_block_rate": 1.0,
+        "taxonomy_band_counts": {},
+        "taxonomy_all_counts": {
+          "pass": 39
+        }
+      },
+      "per_task": {
+        "bleach-cve-2021-23980": {
+          "split": "test",
+          "rewards": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mut": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mean_reward": 1.0,
+          "mutant_block_rate": 1.0
+        },
+        "gitpython-cve-2023-41040": {
+          "split": "test",
+          "rewards": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mut": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mean_reward": 1.0,
+          "mutant_block_rate": 1.0
+        },
+        "mako-cve-2026-41205": {
+          "split": "test",
+          "rewards": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mut": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mean_reward": 1.0,
+          "mutant_block_rate": 1.0
+        },
+        "setuptools-cve-2025-47273": {
+          "split": "test",
+          "rewards": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mut": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mean_reward": 1.0,
+          "mutant_block_rate": 1.0
+        },
+        "django-cve-2024-39330": {
+          "split": "test",
+          "rewards": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mut": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mean_reward": 1.0,
+          "mutant_block_rate": 1.0
+        },
+        "django-cve-2025-59682": {
+          "split": "test",
+          "rewards": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mut": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mean_reward": 1.0,
+          "mutant_block_rate": 1.0
+        },
+        "django-cve-2024-42005": {
+          "split": "ood",
+          "rewards": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mut": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mean_reward": 1.0,
+          "mutant_block_rate": 1.0
+        },
+        "django-cve-2025-57833": {
+          "split": "ood",
+          "rewards": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mut": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mean_reward": 1.0,
+          "mutant_block_rate": 1.0
+        },
+        "django-cve-2025-64459": {
+          "split": "ood",
+          "rewards": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mut": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mean_reward": 1.0,
+          "mutant_block_rate": 1.0
+        },
+        "django-cve-2026-1287": {
+          "split": "ood",
+          "rewards": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mut": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mean_reward": 1.0,
+          "mutant_block_rate": 1.0
+        },
+        "django-cve-2026-1312": {
+          "split": "ood",
+          "rewards": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mut": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mean_reward": 1.0,
+          "mutant_block_rate": 1.0
+        },
+        "pyjwt-cve-2026-102267": {
+          "split": "ood",
+          "rewards": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mut": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mean_reward": 1.0,
+          "mutant_block_rate": 1.0
+        },
+        "pyjwt-cve-2026-48522": {
+          "split": "ood",
+          "rewards": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mut": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mean_reward": 1.0,
+          "mutant_block_rate": 1.0
+        }
+      },
+      "records": [
+        {
+          "instance": "bleach-cve-2021-23980",
+          "components": {
+            "poc": 0.25,
+            "mutants": 0.35,
+            "regression": 0.25,
+            "minimality": 0.15
+          },
+          "tamper": false,
+          "flags": [],
+          "poc_exit_codes": [
+            1,
+            1,
+            1
+          ],
+          "mutant_exit_codes": {
+            "mutant_1": 1,
+            "mutant_2": 1,
+            "mutant_3": 1
+          },
+          "tests": {
+            "ran": true,
+            "total": 187,
+            "failed": [
+              "tests.test_clean::test_uri_value_allowed_protocols[<a href=\"example.com:8000\">valid</a>-kwargs6-<a href=\"example.com:8000\">valid</a>]",
+              "tests.test_clean::test_uri_value_allowed_protocols[<a href=\"localhost:8000\">valid</a>-kwargs8-<a href=\"localhost:8000\">valid</a>]"
+            ],
+            "tail": "=\"localhost:8000\">valid</a>\nE         + <a>valid</a>\n\ntests/test_clean.py:546: AssertionError\n=========================== short test summary info ============================\nFAILED tests/test_clean.py::test_uri_value_allowed_protocols[<a href=\"example.com:8000\">valid</a>-kwargs6-<a href=\"example.com:8000\">valid</a>]\nFAILED tests/test_clean.py::test_uri_value_allowed_protocols[<a href=\"localhost:8000\">valid</a>-kwargs8-<a href=\"localhost:8000\">valid</a>]\n2 failed, 182 passed, 3 xfailed in 2.71s\n"
+          },
+          "new_failures": [],
+          "deleted_functions": [],
+          "reward": 1.0,
+          "passed": true,
+          "taxonomy": "pass",
+          "arm": "PLUMB",
+          "instance_id": "bleach-cve-2021-23980",
+          "split": "test",
+          "rollout": 0
+        },
+        {
+          "instance": "bleach-cve-2021-23980",
+          "components": {
+            "poc": 0.25,
+            "mutants": 0.35,
+            "regression": 0.25,
+            "minimality": 0.15
+          },
+          "tamper": false,
+          "flags": [],
+          "poc_exit_codes": [
+            1,
+            1,
+            1
+          ],
+          "mutant_exit_codes": {
+            "mutant_1": 1,
+            "mutant_2": 1,
+            "mutant_3": 1
+          },
+          "tests": {
+            "ran": true,
+            "total": 187,
+            "failed": [
+              "tests.test_clean::test_uri_value_allowed_protocols[<a href=\"example.com:8000\">valid</a>-kwargs6-<a href=\"example.com:8000\">valid</a>]",
+              "tests.test_clean::test_uri_value_allowed_protocols[<a href=\"localhost:8000\">valid</a>-kwargs8-<a href=\"localhost:8000\">valid</a>]"
+            ],
+            "tail": "=\"localhost:8000\">valid</a>\nE         + <a>valid</a>\n\ntests/test_clean.py:546: AssertionError\n=========================== short test summary info ============================\nFAILED tests/test_clean.py::test_uri_value_allowed_protocols[<a href=\"example.com:8000\">valid</a>-kwargs6-<a href=\"example.com:8000\">valid</a>]\nFAILED tests/test_clean.py::test_uri_value_allowed_protocols[<a href=\"localhost:8000\">valid</a>-kwargs8-<a href=\"localhost:8000\">valid</a>]\n2 failed, 182 passed, 3 xfailed in 3.01s\n"
+          },
+          "new_failures": [],
+          "deleted_functions": [],
+          "reward": 1.0,
+          "passed": true,
+          "taxonomy": "pass",
+          "arm": "PLUMB",
+          "instance_id": "bleach-cve-2021-23980",
+          "split": "test",
+          "rollout": 1
+        },
+        {
+          "instance": "bleach-cve-2021-23980",
+          "components": {
+            "poc": 0.25,
+            "mutants": 0.35,
+            "regression": 0.25,
+            "minimality": 0.15
+          },
+          "tamper": false,
+          "flags": [],
+          "poc_exit_codes": [
+            1,
+            1,
+            1
+          ],
+          "mutant_exit_codes": {
+            "mutant_1": 1,
+            "mutant_2": 1,
+            "mutant_3": 1
+          },
+          "tests": {
+            "ran": true,
+            "total": 187,
+            "failed": [
+              "tests.test_clean::test_uri_value_allowed_protocols[<a href=\"example.com:8000\">valid</a>-kwargs6-<a href=\"example.com:8000\">valid</a>]",
+              "tests.test_clean::test_uri_value_allowed_protocols[<a href=\"localhost:8000\">valid</a>-kwargs8-<a href=\"localhost:8000\">valid</a>]"
+            ],
+            "tail": "=\"localhost:8000\">valid</a>\nE         + <a>valid</a>\n\ntests/test_clean.py:546: AssertionError\n=========================== short test summary info ============================\nFAILED tests/test_clean.py::test_uri_value_allowed_protocols[<a href=\"example.com:8000\">valid</a>-kwargs6-<a href=\"example.com:8000\">valid</a>]\nFAILED tests/test_clean.py::test_uri_value_allowed_protocols[<a href=\"localhost:8000\">valid</a>-kwargs8-<a href=\"localhost:8000\">valid</a>]\n2 failed, 182 passed, 3 xfailed in 2.49s\n"
+          },
+          "new_failures": [],
+          "deleted_functions": [],
+          "reward": 1.0,
+          "passed": true,
+          "taxonomy": "pass",
+          "arm": "PLUMB",
+          "instance_id": "bleach-cve-2021-23980",
+          "split": "test",
+          "rollout": 2
+        },
+        {
+          "instance": "gitpython-cve-2023-41040",
+          "components": {
+            "poc": 0.25,
+            "mutants": 0.35,
+            "regression": 0.25,
+            "minimality": 0.15
+          },
+          "tamper": false,
+          "flags": [],
+          "poc_exit_codes": [
+            1,
+            1,
+            1
+          ],
+          "mutant_exit_codes": {
+            "mutant_1": 1,
+            "mutant_2": 1,
+            "mutant_3": 1
+          },
+          "tests": {
+            "ran": true,
+            "total": 14,
+            "failed": [
+              "test.test_refs.TestRefs::test_head_checkout_detached_head",
+              "test.test_refs.TestRefs::test_head_reset",
+              "test.test_refs.TestRefs::test_is_valid",
+              "test.test_refs.TestRefs::test_reflog"
+            ],
+            "tail": "bject has no attribute 'master'\n\ngit/util.py:1080: AttributeError\n=========================== short test summary info ============================\nFAILED test/test_refs.py::TestRefs::test_head_checkout_detached_head - Attrib...\nFAILED test/test_refs.py::TestRefs::test_head_reset - git.exc.GitCommandError...\nFAILED test/test_refs.py::TestRefs::test_is_valid - TypeError: HEAD is a deta...\nFAILED test/test_refs.py::TestRefs::test_reflog - AttributeError: 'IterableLi...\n4 failed, 10 passed in 8.33s\n"
+          },
+          "new_failures": [],
+          "deleted_functions": [],
+          "reward": 1.0,
+          "passed": true,
+          "taxonomy": "pass",
+          "arm": "PLUMB",
+          "instance_id": "gitpython-cve-2023-41040",
+          "split": "test",
+          "rollout": 0
+        },
+        {
+          "instance": "gitpython-cve-2023-41040",
+          "components": {
+            "poc": 0.25,
+            "mutants": 0.35,
+            "regression": 0.25,
+            "minimality": 0.15
+          },
+          "tamper": false,
+          "flags": [],
+          "poc_exit_codes": [
+            1,
+            1,
+            1
+          ],
+          "mutant_exit_codes": {
+            "mutant_1": 1,
+            "mutant_2": 1,
+            "mutant_3": 1
+          },
+          "tests": {
+            "ran": true,
+            "total": 14,
+            "failed": [
+              "test.test_refs.TestRefs::test_head_checkout_detached_head",
+              "test.test_refs.TestRefs::test_head_reset",
+              "test.test_refs.TestRefs::test_is_valid",
+              "test.test_refs.TestRefs::test_reflog"
+            ],
+            "tail": "bject has no attribute 'master'\n\ngit/util.py:1080: AttributeError\n=========================== short test summary info ============================\nFAILED test/test_refs.py::TestRefs::test_head_checkout_detached_head - Attrib...\nFAILED test/test_refs.py::TestRefs::test_head_reset - git.exc.GitCommandError...\nFAILED test/test_refs.py::TestRefs::test_is_valid - TypeError: HEAD is a deta...\nFAILED test/test_refs.py::TestRefs::test_reflog - AttributeError: 'IterableLi...\n4 failed, 10 passed in 6.92s\n"
+          },
+          "new_failures": [],
+          "deleted_functions": [],
+          "reward": 1.0,
+          "passed": true,
+          "taxonomy": "pass",
+          "arm": "PLUMB",
+          "instance_id": "gitpython-cve-2023-41040",
+          "split": "test",
+          "rollout": 1
+        },
+        {
+          "instance": "gitpython-cve-2023-41040",
+          "components": {
+            "poc": 0.25,
+            "mutants": 0.35,
+            "regression": 0.25,
+            "minimality": 0.15
+          },
+          "tamper": false,
+          "flags": [],
+          "poc_exit_codes": [
+            1,
+            1,
+            1
+          ],
+          "mutant_exit_codes": {
+            "mutant_1": 1,
+            "mutant_2": 1,
+            "mutant_3": 1
+          },
+          "tests": {
+            "ran": true,
+            "total": 14,
+            "failed": [
+              "test.test_refs.TestRefs::test_head_checkout_detached_head",
+              "test.test_refs.TestRefs::test_head_reset",
+              "test.test_refs.TestRefs::test_is_valid",
+              "test.test_refs.TestRefs::test_reflog"
+            ],
+            "tail": "bject has no attribute 'master'\n\ngit/util.py:1080: AttributeError\n=========================== short test summary info ============================\nFAILED test/test_refs.py::TestRefs::test_head_checkout_detached_head - Attrib...\nFAILED test/test_refs.py::TestRefs::test_head_reset - git.exc.GitCommandError...\nFAILED test/test_refs.py::TestRefs::test_is_valid - TypeError: HEAD is a deta...\nFAILED test/test_refs.py::TestRefs::test_reflog - AttributeError: 'IterableLi...\n4 failed, 10 passed in 7.81s\n"
+          },
+          "new_failures": [],
+          "deleted_functions": [],
+          "reward": 1.0,
+          "passed": true,
+          "taxonomy": "pass",
+          "arm": "PLUMB",
+          "instance_id": "gitpython-cve-2023-41040",
+          "split": "test",
+          "rollout": 2
+        },
+        {
+          "instance": "mako-cve-2026-41205",
+          "components": {
+            "poc": 0.25,
+            "mutants": 0.35,
+            "regression": 0.25,
+            "minimality": 0.15
+          },
+          "tamper": false,
+          "flags": [],
+          "poc_exit_codes": [
+            1,
+            1,
+            1
+          ],
+          "mutant_exit_codes": {
+            "mutant_1": 1,
+            "mutant_2": 1,
+            "mutant_3": 1,
+            "mutant_4": 1
+          },
+          "tests": {
+            "ran": true,
+            "total": 11,
+            "failed": [],
+            "tail": "...........                                                              [100%]\n11 passed in 1.13s\n"
+          },
+          "new_failures": [],
+          "deleted_functions": [],
+          "reward": 1.0,
+          "passed": true,
+          "taxonomy": "pass",
+          "arm": "PLUMB",
+          "instance_id": "mako-cve-2026-41205",
+          "split": "test",
+          "rollout": 0
+        },
+        {
+          "instance": "mako-cve-2026-41205",
+          "components": {
+            "poc": 0.25,
+            "mutants": 0.35,
+            "regression": 0.25,
+            "minimality": 0.15
+          },
+          "tamper": false,
+          "flags": [],
+          "poc_exit_codes": [
+            1,
+            1,
+            1
+          ],
+          "mutant_exit_codes": {
+            "mutant_1": 1,
+            "mutant_2": 1,
+            "mutant_3": 1,
+            "mutant_4": 1
+          },
+          "tests": {
+            "ran": true,
+            "total": 11,
+            "failed": [],
+            "tail": "...........                                                              [100%]\n11 passed in 0.72s\n"
+          },
+          "new_failures": [],
+          "deleted_functions": [],
+          "reward": 1.0,
+          "passed": true,
+          "taxonomy": "pass",
+          "arm": "PLUMB",
+          "instance_id": "mako-cve-2026-41205",
+          "split": "test",
+          "rollout": 1
+        },
+        {
+          "instance": "mako-cve-2026-41205",
+          "components": {
+            "poc": 0.25,
+            "mutants": 0.35,
+            "regression": 0.25,
+            "minimality": 0.15
+          },
+          "tamper": false,
+          "flags": [],
+          "poc_exit_codes": [
+            1,
+            1,
+            1
+          ],
+          "mutant_exit_codes": {
+            "mutant_1": 1,
+            "mutant_2": 1,
+            "mutant_3": 1,
+            "mutant_4": 1
+          },
+          "tests": {
+            "ran": true,
+            "total": 11,
+            "failed": [],
+            "tail": "...........                                                              [100%]\n11 passed in 0.50s\n"
+          },
+          "new_failures": [],
+          "deleted_functions": [],
+          "reward": 1.0,
+          "passed": true,
+          "taxonomy": "pass",
+          "arm": "PLUMB",
+          "instance_id": "mako-cve-2026-41205",
+          "split": "test",
+          "rollout": 2
+        },
+        {
+          "instance": "setuptools-cve-2025-47273",
+          "components": {
+            "poc": 0.25,
+            "mutants": 0.35,
+            "regression": 0.25,
+            "minimality": 0.15
+          },
+          "tamper": false,
+          "flags": [],
+          "poc_exit_codes": [
+            1,
+            1,
+            1
+          ],
+          "mutant_exit_codes": {
+            "mutant_1": 1,
+            "mutant_2": 1,
+            "mutant_3": 1,
+            "mutant_4": 1,
+            "mutant_5": 1
+          },
+          "tests": {
+            "ran": true,
+            "total": 20,
+            "failed": [
+              "setuptools.tests.test_packageindex.TestPyPIConfig::test_percent_in_password"
+            ],
+            "tail": "ry, tmpdir, tmpdir_cwd, tmpdir_factory, user_override, venv, venv_without_setuptools, windows_only, workaround_xdist_376\n>       use 'pytest --fixtures [testpath]' for help on them.\n\nwork/snapshots/setuptools-cve-2025-47273/grade/setuptools/tests/test_packageindex.py:243\n=========================== short test summary info ============================\nERROR setuptools/tests/test_packageindex.py::TestPyPIConfig::test_percent_in_password\n19 passed, 1 error in 2.11s\n"
+          },
+          "new_failures": [],
+          "deleted_functions": [],
+          "reward": 1.0,
+          "passed": true,
+          "taxonomy": "pass",
+          "arm": "PLUMB",
+          "instance_id": "setuptools-cve-2025-47273",
+          "split": "test",
+          "rollout": 0
+        },
+        {
+          "instance": "setuptools-cve-2025-47273",
+          "components": {
+            "poc": 0.25,
+            "mutants": 0.35,
+            "regression": 0.25,
+            "minimality": 0.15
+          },
+          "tamper": false,
+          "flags": [],
+          "poc_exit_codes": [
+            1,
+            1,
+            1
+          ],
+          "mutant_exit_codes": {
+            "mutant_1": 1,
+            "mutant_2": 1,
+            "mutant_3": 1,
+            "mutant_4": 1,
+            "mutant_5": 1
+          },
+          "tests": {
+            "ran": true,
+            "total": 20,
+            "failed": [
+              "setuptools.tests.test_packageindex.TestPyPIConfig::test_percent_in_password"
+            ],
+            "tail": "ry, tmpdir, tmpdir_cwd, tmpdir_factory, user_override, venv, venv_without_setuptools, windows_only, workaround_xdist_376\n>       use 'pytest --fixtures [testpath]' for help on them.\n\nwork/snapshots/setuptools-cve-2025-47273/grade/setuptools/tests/test_packageindex.py:243\n=========================== short test summary info ============================\nERROR setuptools/tests/test_packageindex.py::TestPyPIConfig::test_percent_in_password\n19 passed, 1 error in 1.37s\n"
+          },
+          "new_failures": [],
+          "deleted_functions": [],
+          "reward": 1.0,
+          "passed": true,
+          "taxonomy": "pass",
+          "arm": "PLUMB",
+          "instance_id": "setuptools-cve-2025-47273",
+          "split": "test",
+          "rollout": 1
+        },
+        {
+          "instance": "setuptools-cve-2025-47273",
+          "components": {
+            "poc": 0.25,
+            "mutants": 0.35,
+            "regression": 0.25,
+            "minimality": 0.15
+          },
+          "tamper": false,
+          "flags": [],
+          "poc_exit_codes": [
+            1,
+            1,
+            1
+          ],
+          "mutant_exit_codes": {
+            "mutant_1": 1,
+            "mutant_2": 1,
+            "mutant_3": 1,
+            "mutant_4": 1,
+            "mutant_5": 1
+          },
+          "tests": {
+            "ran": true,
+            "total": 20,
+            "failed": [
+              "setuptools.tests.test_packageindex.TestPyPIConfig::test_percent_in_password"
+            ],
+            "tail": "ry, tmpdir, tmpdir_cwd, tmpdir_factory, user_override, venv, venv_without_setuptools, windows_only, workaround_xdist_376\n>       use 'pytest --fixtures [testpath]' for help on them.\n\nwork/snapshots/setuptools-cve-2025-47273/grade/setuptools/tests/test_packageindex.py:243\n=========================== short test summary info ============================\nERROR setuptools/tests/test_packageindex.py::TestPyPIConfig::test_percent_in_password\n19 passed, 1 error in 1.29s\n"
+          },
+          "new_failures": [],
+          "deleted_functions": [],
+          "reward": 1.0,
+          "passed": true,
+          "taxonomy": "pass",
+          "arm": "PLUMB",
+          "instance_id": "setuptools-cve-2025-47273",
+          "split": "test",
+          "rollout": 2
+        },
+        {
+          "instance": "django-cve-2024-39330",
+          "components": {
+            "poc": 0.25,
+            "mutants": 0.35,
+            "regression": 0.25,
+            "minimality": 0.15
+          },
+          "tamper": false,
+          "flags": [],
+          "poc_exit_codes": [
+            1,
+            1,
+            1
+          ],
+          "mutant_exit_codes": {
+            "mutant_1": 1,
+            "mutant_2": 1,
+            "mutant_3": 1,
+            "mutant_4": 1
+          },
+          "tests": {
+            "ran": true,
+            "total": 182,
+            "failed": [
+              "file_storage.tests.FileLikeObjectTestCase.test_urllib_request_urlopen"
+            ],
+            "tail": "tp_open\n    return self.do_open(http.client.HTTPConnection, req)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 1347, in do_open\n    raise URLError(err)\nurllib.error.URLError: <urlopen error [Errno 111] Connection refused>\n\n----------------------------------------------------------------------\nRan 182 tests in 2.796s\n\nFAILED (errors=1)\nDestroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...\n"
+          },
+          "new_failures": [],
+          "deleted_functions": [],
+          "reward": 1.0,
+          "passed": true,
+          "taxonomy": "pass",
+          "arm": "PLUMB",
+          "instance_id": "django-cve-2024-39330",
+          "split": "test",
+          "rollout": 0
+        },
+        {
+          "instance": "django-cve-2024-39330",
+          "components": {
+            "poc": 0.25,
+            "mutants": 0.35,
+            "regression": 0.25,
+            "minimality": 0.15
+          },
+          "tamper": false,
+          "flags": [],
+          "poc_exit_codes": [
+            1,
+            1,
+            1
+          ],
+          "mutant_exit_codes": {
+            "mutant_1": 1,
+            "mutant_2": 1,
+            "mutant_3": 1,
+            "mutant_4": 1
+          },
+          "tests": {
+            "ran": true,
+            "total": 182,
+            "failed": [
+              "file_storage.tests.FileLikeObjectTestCase.test_urllib_request_urlopen"
+            ],
+            "tail": "tp_open\n    return self.do_open(http.client.HTTPConnection, req)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 1347, in do_open\n    raise URLError(err)\nurllib.error.URLError: <urlopen error [Errno 111] Connection refused>\n\n----------------------------------------------------------------------\nRan 182 tests in 3.021s\n\nFAILED (errors=1)\nDestroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...\n"
+          },
+          "new_failures": [],
+          "deleted_functions": [],
+          "reward": 1.0,
+          "passed": true,
+          "taxonomy": "pass",
+          "arm": "PLUMB",
+          "instance_id": "django-cve-2024-39330",
+          "split": "test",
+          "rollout": 1
+        },
+        {
+          "instance": "django-cve-2024-39330",
+          "components": {
+            "poc": 0.25,
+            "mutants": 0.35,
+            "regression": 0.25,
+            "minimality": 0.15
+          },
+          "tamper": false,
+          "flags": [],
+          "poc_exit_codes": [
+            1,
+            1,
+            1
+          ],
+          "mutant_exit_codes": {
+            "mutant_1": 1,
+            "mutant_2": 1,
+            "mutant_3": 1,
+            "mutant_4": 1
+          },
+          "tests": {
+            "ran": true,
+            "total": 182,
+            "failed": [
+              "file_storage.tests.FileLikeObjectTestCase.test_urllib_request_urlopen"
+            ],
+            "tail": "tp_open\n    return self.do_open(http.client.HTTPConnection, req)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 1347, in do_open\n    raise URLError(err)\nurllib.error.URLError: <urlopen error [Errno 111] Connection refused>\n\n----------------------------------------------------------------------\nRan 182 tests in 3.093s\n\nFAILED (errors=1)\nDestroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...\n"
+          },
+          "new_failures": [],
+          "deleted_functions": [],
+          "reward": 1.0,
+          "passed": true,
+          "taxonomy": "pass",
+          "arm": "PLUMB",
+          "instance_id": "django-cve-2024-39330",
+          "split": "test",
+          "rollout": 2
+        },
+        {
+          "instance": "django-cve-2025-59682",
+          "components": {
+            "poc": 0.25,
+            "mutants": 0.35,
+            "regression": 0.25,
+            "minimality": 0.15
+          },
+          "tamper": false,
+          "flags": [],
+          "poc_exit_codes": [
+            1,
+            1,
+            1
+          ],
+          "mutant_exit_codes": {
+            "mutant_1": 1,
+            "mutant_2": 1,
+            "mutant_3": 1,
+            "mutant_4": 1
+          },
+          "tests": {
+            "ran": true,
+            "total": 4,
+            "failed": [],
+            "tail": "on_traversal) ... ok\ntest_extract_function_traversal_startswith (utils_tests.test_archive.TestArchiveInvalid.test_extract_function_traversal_startswith) ... ok\ntest_extract_file_permissions (utils_tests.test_archive.TestArchive.test_extract_file_permissions)\narchive.extract() preserves file permissions. ... ok\ntest_extract_function (utils_tests.test_archive.TestArchive.test_extract_function) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.201s\n\nOK\n"
+          },
+          "new_failures": [],
+          "deleted_functions": [],
+          "reward": 1.0,
+          "passed": true,
+          "taxonomy": "pass",
+          "arm": "PLUMB",
+          "instance_id": "django-cve-2025-59682",
+          "split": "test",
+          "rollout": 0
+        },
+        {
+          "instance": "django-cve-2025-59682",
+          "components": {
+            "poc": 0.25,
+            "mutants": 0.35,
+            "regression": 0.25,
+            "minimality": 0.15
+          },
+          "tamper": false,
+          "flags": [],
+          "poc_exit_codes": [
+            1,
+            1,
+            1
+          ],
+          "mutant_exit_codes": {
+            "mutant_1": 1,
+            "mutant_2": 1,
+            "mutant_3": 1,
+            "mutant_4": 1
+          },
+          "tests": {
+            "ran": true,
+            "total": 4,
+            "failed": [],
+            "tail": "on_traversal) ... ok\ntest_extract_function_traversal_startswith (utils_tests.test_archive.TestArchiveInvalid.test_extract_function_traversal_startswith) ... ok\ntest_extract_file_permissions (utils_tests.test_archive.TestArchive.test_extract_file_permissions)\narchive.extract() preserves file permissions. ... ok\ntest_extract_function (utils_tests.test_archive.TestArchive.test_extract_function) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.312s\n\nOK\n"
+          },
+          "new_failures": [],
+          "deleted_functions": [],
+          "reward": 1.0,
+          "passed": true,
+          "taxonomy": "pass",
+          "arm": "PLUMB",
+          "instance_id": "django-cve-2025-59682",
+          "split": "test",
+          "rollout": 1
+        },
+        {
+          "instance": "django-cve-2025-59682",
+          "components": {
+            "poc": 0.25,
+            "mutants": 0.35,
+            "regression": 0.25,
+            "minimality": 0.15
+          },
+          "tamper": false,
+          "flags": [],
+          "poc_exit_codes": [
+            1,
+            1,
+            1
+          ],
+          "mutant_exit_codes": {
+            "mutant_1": 1,
+            "mutant_2": 1,
+            "mutant_3": 1,
+            "mutant_4": 1
+          },
+          "tests": {
+            "ran": true,
+            "total": 4,
+            "failed": [],
+            "tail": "on_traversal) ... ok\ntest_extract_function_traversal_startswith (utils_tests.test_archive.TestArchiveInvalid.test_extract_function_traversal_startswith) ... ok\ntest_extract_file_permissions (utils_tests.test_archive.TestArchive.test_extract_file_permissions)\narchive.extract() preserves file permissions. ... ok\ntest_extract_function (utils_tests.test_archive.TestArchive.test_extract_function) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.191s\n\nOK\n"
+          },
+          "new_failures": [],
+          "deleted_functions": [],
+          "reward": 1.0,
+          "passed": true,
+          "taxonomy": "pass",
+          "arm": "PLUMB",
+          "instance_id": "django-cve-2025-59682",
+          "split": "test",
+          "rollout": 2
+        },
+        {
+          "instance": "django-cve-2024-42005",
+          "components": {
+            "poc": 0.25,
+            "mutants": 0.35,
+            "regression": 0.25,
+            "minimality": 0.15
+          },
+          "tamper": false,
+          "flags": [],
+          "poc_exit_codes": [
+            1,
+            1,
+            1
+          ],
+          "mutant_exit_codes": {
+            "mutant_1": 1,
+            "mutant_2": 1,
+            "mutant_3": 1,
+            "mutant_4": 1,
+            "mutant_5": 1,
+            "mutant_6": 1
+          },
+          "tests": {
+            "ran": true,
+            "total": 7,
+            "failed": [],
+            "tail": "sionsTests.test_values_expression_group_by) ... ok\ntest_values_list_expression (expressions.test_queryset_values.ValuesExpressionsTests.test_values_list_expression) ... ok\ntest_values_list_expression_flat (expressions.test_queryset_values.ValuesExpressionsTests.test_values_list_expression_flat) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.106s\n\nOK\nDestroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...\n"
+          },
+          "new_failures": [],
+          "deleted_functions": [],
+          "reward": 1.0,
+          "passed": true,
+          "taxonomy": "pass",
+          "arm": "PLUMB",
+          "instance_id": "django-cve-2024-42005",
+          "split": "ood",
+          "rollout": 0
+        },
+        {
+          "instance": "django-cve-2024-42005",
+          "components": {
+            "poc": 0.25,
+            "mutants": 0.35,
+            "regression": 0.25,
+            "minimality": 0.15
+          },
+          "tamper": false,
+          "flags": [],
+          "poc_exit_codes": [
+            1,
+            1,
+            1
+          ],
+          "mutant_exit_codes": {
+            "mutant_1": 1,
+            "mutant_2": 1,
+            "mutant_3": 1,
+            "mutant_4": 1,
+            "mutant_5": 1,
+            "mutant_6": 1
+          },
+          "tests": {
+            "ran": true,
+            "total": 7,
+            "failed": [],
+            "tail": "sionsTests.test_values_expression_group_by) ... ok\ntest_values_list_expression (expressions.test_queryset_values.ValuesExpressionsTests.test_values_list_expression) ... ok\ntest_values_list_expression_flat (expressions.test_queryset_values.ValuesExpressionsTests.test_values_list_expression_flat) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.059s\n\nOK\nDestroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...\n"
+          },
+          "new_failures": [],
+          "deleted_functions": [],
+          "reward": 1.0,
+          "passed": true,
+          "taxonomy": "pass",
+          "arm": "PLUMB",
+          "instance_id": "django-cve-2024-42005",
+          "split": "ood",
+          "rollout": 1
+        },
+        {
+          "instance": "django-cve-2024-42005",
+          "components": {
+            "poc": 0.25,
+            "mutants": 0.35,
+            "regression": 0.25,
+            "minimality": 0.15
+          },
+          "tamper": false,
+          "flags": [],
+          "poc_exit_codes": [
+            1,
+            1,
+            1
+          ],
+          "mutant_exit_codes": {
+            "mutant_1": 1,
+            "mutant_2": 1,
+            "mutant_3": 1,
+            "mutant_4": 1,
+            "mutant_5": 1,
+            "mutant_6": 1
+          },
+          "tests": {
+            "ran": true,
+            "total": 7,
+            "failed": [],
+            "tail": "sionsTests.test_values_expression_group_by) ... ok\ntest_values_list_expression (expressions.test_queryset_values.ValuesExpressionsTests.test_values_list_expression) ... ok\ntest_values_list_expression_flat (expressions.test_queryset_values.ValuesExpressionsTests.test_values_list_expression_flat) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.069s\n\nOK\nDestroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...\n"
+          },
+          "new_failures": [],
+          "deleted_functions": [],
+          "reward": 1.0,
+          "passed": true,
+          "taxonomy": "pass",
+          "arm": "PLUMB",
+          "instance_id": "django-cve-2024-42005",
+          "split": "ood",
+          "rollout": 2
+        },
+        {
+          "instance": "django-cve-2025-57833",
+          "components": {
+            "poc": 0.25,
+            "mutants": 0.35,
+            "regression": 0.25,
+            "minimality": 0.15
+          },
+          "tamper": false,
+          "flags": [],
+          "poc_exit_codes": [
+            1,
+            1,
+            1
+          ],
+          "mutant_exit_codes": {
+            "mutant_1": 1,
+            "mutant_2": 1,
+            "mutant_3": 1,
+            "mutant_4": 1,
+            "mutant_5": 1,
+            "mutant_6": 1
+          },
+          "tests": {
+            "ran": true,
+            "total": 152,
+            "failed": [],
+            "tail": "_filter (filtered_relation.tests.FilteredRelationTests.test_with_multiple_filter) ... ok\ntest_with_prefetch_related (filtered_relation.tests.FilteredRelationTests.test_with_prefetch_related) ... ok\ntest_without_join (filtered_relation.tests.FilteredRelationTests.test_without_join) ... ok\n\n----------------------------------------------------------------------\nRan 152 tests in 1.193s\n\nOK (skipped=4)\nDestroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...\n"
+          },
+          "new_failures": [],
+          "deleted_functions": [],
+          "reward": 1.0,
+          "passed": true,
+          "taxonomy": "pass",
+          "arm": "PLUMB",
+          "instance_id": "django-cve-2025-57833",
+          "split": "ood",
+          "rollout": 0
+        },
+        {
+          "instance": "django-cve-2025-57833",
+          "components": {
+            "poc": 0.25,
+            "mutants": 0.35,
+            "regression": 0.25,
+            "minimality": 0.15
+          },
+          "tamper": false,
+          "flags": [],
+          "poc_exit_codes": [
+            1,
+            1,
+            1
+          ],
+          "mutant_exit_codes": {
+            "mutant_1": 1,
+            "mutant_2": 1,
+            "mutant_3": 1,
+            "mutant_4": 1,
+            "mutant_5": 1,
+            "mutant_6": 1
+          },
+          "tests": {
+            "ran": true,
+            "total": 152,
+            "failed": [],
+            "tail": "_filter (filtered_relation.tests.FilteredRelationTests.test_with_multiple_filter) ... ok\ntest_with_prefetch_related (filtered_relation.tests.FilteredRelationTests.test_with_prefetch_related) ... ok\ntest_without_join (filtered_relation.tests.FilteredRelationTests.test_without_join) ... ok\n\n----------------------------------------------------------------------\nRan 152 tests in 0.669s\n\nOK (skipped=4)\nDestroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...\n"
+          },
+          "new_failures": [],
+          "deleted_functions": [],
+          "reward": 1.0,
+          "passed": true,
+          "taxonomy": "pass",
+          "arm": "PLUMB",
+          "instance_id": "django-cve-2025-57833",
+          "split": "ood",
+          "rollout": 1
+        },
+        {
+          "instance": "django-cve-2025-57833",
+          "components": {
+            "poc": 0.25,
+            "mutants": 0.35,
+            "regression": 0.25,
+            "minimality": 0.15
+          },
+          "tamper": false,
+          "flags": [],
+          "poc_exit_codes": [
+            1,
+            1,
+            1
+          ],
+          "mutant_exit_codes": {
+            "mutant_1": 1,
+            "mutant_2": 1,
+            "mutant_3": 1,
+            "mutant_4": 1,
+            "mutant_5": 1,
+            "mutant_6": 1
+          },
+          "tests": {
+            "ran": true,
+            "total": 152,
+            "failed": [],
+            "tail": "_filter (filtered_relation.tests.FilteredRelationTests.test_with_multiple_filter) ... ok\ntest_with_prefetch_related (filtered_relation.tests.FilteredRelationTests.test_with_prefetch_related) ... ok\ntest_without_join (filtered_relation.tests.FilteredRelationTests.test_without_join) ... ok\n\n----------------------------------------------------------------------\nRan 152 tests in 2.184s\n\nOK (skipped=4)\nDestroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...\n"
+          },
+          "new_failures": [],
+          "deleted_functions": [],
+          "reward": 1.0,
+          "passed": true,
+          "taxonomy": "pass",
+          "arm": "PLUMB",
+          "instance_id": "django-cve-2025-57833",
+          "split": "ood",
+          "rollout": 2
+        },
+        {
+          "instance": "django-cve-2025-64459",
+          "components": {
+            "poc": 0.25,
+            "mutants": 0.35,
+            "regression": 0.25,
+            "minimality": 0.15
+          },
+          "tamper": false,
+          "flags": [],
+          "poc_exit_codes": [
+            1,
+            1,
+            1
+          ],
+          "mutant_exit_codes": {
+            "mutant_1": 1,
+            "mutant_2": 1,
+            "mutant_3": 1,
+            "mutant_4": 1,
+            "mutant_5": 1,
+            "mutant_6": 1
+          },
+          "tests": {
+            "ran": true,
+            "total": 34,
+            "failed": [],
+            "tail": "struct_or (queries.test_q.QTests.test_reconstruct_or) ... ok\ntest_reconstruct_xor (queries.test_q.QTests.test_reconstruct_xor) ... ok\ntest_referenced_base_fields (queries.test_q.QTests.test_referenced_base_fields) ... ok\ntest_replace_expressions (queries.test_q.QTests.test_replace_expressions) ... ok\n\n----------------------------------------------------------------------\nRan 34 tests in 0.014s\n\nOK\nDestroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...\n"
+          },
+          "new_failures": [],
+          "deleted_functions": [],
+          "reward": 1.0,
+          "passed": true,
+          "taxonomy": "pass",
+          "arm": "PLUMB",
+          "instance_id": "django-cve-2025-64459",
+          "split": "ood",
+          "rollout": 0
+        },
+        {
+          "instance": "django-cve-2025-64459",
+          "components": {
+            "poc": 0.25,
+            "mutants": 0.35,
+            "regression": 0.25,
+            "minimality": 0.15
+          },
+          "tamper": false,
+          "flags": [],
+          "poc_exit_codes": [
+            1,
+            1,
+            1
+          ],
+          "mutant_exit_codes": {
+            "mutant_1": 1,
+            "mutant_2": 1,
+            "mutant_3": 1,
+            "mutant_4": 1,
+            "mutant_5": 1,
+            "mutant_6": 1
+          },
+          "tests": {
+            "ran": true,
+            "total": 34,
+            "failed": [],
+            "tail": "struct_or (queries.test_q.QTests.test_reconstruct_or) ... ok\ntest_reconstruct_xor (queries.test_q.QTests.test_reconstruct_xor) ... ok\ntest_referenced_base_fields (queries.test_q.QTests.test_referenced_base_fields) ... ok\ntest_replace_expressions (queries.test_q.QTests.test_replace_expressions) ... ok\n\n----------------------------------------------------------------------\nRan 34 tests in 0.014s\n\nOK\nDestroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...\n"
+          },
+          "new_failures": [],
+          "deleted_functions": [],
+          "reward": 1.0,
+          "passed": true,
+          "taxonomy": "pass",
+          "arm": "PLUMB",
+          "instance_id": "django-cve-2025-64459",
+          "split": "ood",
+          "rollout": 1
+        },
+        {
+          "instance": "django-cve-2025-64459",
+          "components": {
+            "poc": 0.25,
+            "mutants": 0.35,
+            "regression": 0.25,
+            "minimality": 0.15
+          },
+          "tamper": false,
+          "flags": [],
+          "poc_exit_codes": [
+            1,
+            1,
+            1
+          ],
+          "mutant_exit_codes": {
+            "mutant_1": 1,
+            "mutant_2": 1,
+            "mutant_3": 1,
+            "mutant_4": 1,
+            "mutant_5": 1,
+            "mutant_6": 1
+          },
+          "tests": {
+            "ran": true,
+            "total": 34,
+            "failed": [],
+            "tail": "struct_or (queries.test_q.QTests.test_reconstruct_or) ... ok\ntest_reconstruct_xor (queries.test_q.QTests.test_reconstruct_xor) ... ok\ntest_referenced_base_fields (queries.test_q.QTests.test_referenced_base_fields) ... ok\ntest_replace_expressions (queries.test_q.QTests.test_replace_expressions) ... ok\n\n----------------------------------------------------------------------\nRan 34 tests in 0.014s\n\nOK\nDestroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...\n"
+          },
+          "new_failures": [],
+          "deleted_functions": [],
+          "reward": 1.0,
+          "passed": true,
+          "taxonomy": "pass",
+          "arm": "PLUMB",
+          "instance_id": "django-cve-2025-64459",
+          "split": "ood",
+          "rollout": 2
+        },
+        {
+          "instance": "django-cve-2026-1287",
+          "components": {
+            "poc": 0.25,
+            "mutants": 0.35,
+            "regression": 0.25,
+            "minimality": 0.15
+          },
+          "tamper": false,
+          "flags": [],
+          "poc_exit_codes": [
+            1,
+            1,
+            1
+          ],
+          "mutant_exit_codes": {
+            "mutant_1": 1,
+            "mutant_2": 1,
+            "mutant_3": 1,
+            "mutant_4": 1
+          },
+          "tests": {
+            "ran": true,
+            "total": 91,
+            "failed": [],
+            "tail": "_annotation) ... ok\ntest_overwrite_annotation_with_alias (annotations.tests.AliasTests.test_overwrite_annotation_with_alias) ... ok\ntest_update_with_alias (annotations.tests.AliasTests.test_update_with_alias) ... ok\ntest_values_alias (annotations.tests.AliasTests.test_values_alias) ... ok\n\n----------------------------------------------------------------------\nRan 91 tests in 0.418s\n\nOK (skipped=3)\nDestroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...\n"
+          },
+          "new_failures": [],
+          "deleted_functions": [],
+          "reward": 1.0,
+          "passed": true,
+          "taxonomy": "pass",
+          "arm": "PLUMB",
+          "instance_id": "django-cve-2026-1287",
+          "split": "ood",
+          "rollout": 0
+        },
+        {
+          "instance": "django-cve-2026-1287",
+          "components": {
+            "poc": 0.25,
+            "mutants": 0.35,
+            "regression": 0.25,
+            "minimality": 0.15
+          },
+          "tamper": false,
+          "flags": [],
+          "poc_exit_codes": [
+            1,
+            1,
+            1
+          ],
+          "mutant_exit_codes": {
+            "mutant_1": 1,
+            "mutant_2": 1,
+            "mutant_3": 1,
+            "mutant_4": 1
+          },
+          "tests": {
+            "ran": true,
+            "total": 91,
+            "failed": [],
+            "tail": "_annotation) ... ok\ntest_overwrite_annotation_with_alias (annotations.tests.AliasTests.test_overwrite_annotation_with_alias) ... ok\ntest_update_with_alias (annotations.tests.AliasTests.test_update_with_alias) ... ok\ntest_values_alias (annotations.tests.AliasTests.test_values_alias) ... ok\n\n----------------------------------------------------------------------\nRan 91 tests in 1.781s\n\nOK (skipped=3)\nDestroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...\n"
+          },
+          "new_failures": [],
+          "deleted_functions": [],
+          "reward": 1.0,
+          "passed": true,
+          "taxonomy": "pass",
+          "arm": "PLUMB",
+          "instance_id": "django-cve-2026-1287",
+          "split": "ood",
+          "rollout": 1
+        },
+        {
+          "instance": "django-cve-2026-1287",
+          "components": {
+            "poc": 0.25,
+            "mutants": 0.35,
+            "regression": 0.25,
+            "minimality": 0.15
+          },
+          "tamper": false,
+          "flags": [],
+          "poc_exit_codes": [
+            1,
+            1,
+            1
+          ],
+          "mutant_exit_codes": {
+            "mutant_1": 1,
+            "mutant_2": 1,
+            "mutant_3": 1,
+            "mutant_4": 1
+          },
+          "tests": {
+            "ran": true,
+            "total": 91,
+            "failed": [],
+            "tail": "_annotation) ... ok\ntest_overwrite_annotation_with_alias (annotations.tests.AliasTests.test_overwrite_annotation_with_alias) ... ok\ntest_update_with_alias (annotations.tests.AliasTests.test_update_with_alias) ... ok\ntest_values_alias (annotations.tests.AliasTests.test_values_alias) ... ok\n\n----------------------------------------------------------------------\nRan 91 tests in 0.364s\n\nOK (skipped=3)\nDestroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...\n"
+          },
+          "new_failures": [],
+          "deleted_functions": [],
+          "reward": 1.0,
+          "passed": true,
+          "taxonomy": "pass",
+          "arm": "PLUMB",
+          "instance_id": "django-cve-2026-1287",
+          "split": "ood",
+          "rollout": 2
+        },
+        {
+          "instance": "django-cve-2026-1312",
+          "components": {
+            "poc": 0.25,
+            "mutants": 0.35,
+            "regression": 0.25,
+            "minimality": 0.15
+          },
+          "tamper": false,
+          "flags": [],
+          "poc_exit_codes": [
+            1,
+            1,
+            1
+          ],
+          "mutant_exit_codes": {
+            "mutant_1": 1,
+            "mutant_2": 1,
+            "mutant_3": 1
+          },
+          "tests": {
+            "ran": true,
+            "total": 97,
+            "failed": [],
+            "tail": "e_filter (filtered_relation.tests.FilteredRelationTests.test_with_multiple_filter) ... ok\ntest_with_prefetch_related (filtered_relation.tests.FilteredRelationTests.test_with_prefetch_related) ... ok\ntest_without_join (filtered_relation.tests.FilteredRelationTests.test_without_join) ... ok\n\n----------------------------------------------------------------------\nRan 97 tests in 0.392s\n\nOK (skipped=1)\nDestroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...\n"
+          },
+          "new_failures": [],
+          "deleted_functions": [],
+          "reward": 1.0,
+          "passed": true,
+          "taxonomy": "pass",
+          "arm": "PLUMB",
+          "instance_id": "django-cve-2026-1312",
+          "split": "ood",
+          "rollout": 0
+        },
+        {
+          "instance": "django-cve-2026-1312",
+          "components": {
+            "poc": 0.25,
+            "mutants": 0.35,
+            "regression": 0.25,
+            "minimality": 0.15
+          },
+          "tamper": false,
+          "flags": [],
+          "poc_exit_codes": [
+            1,
+            1,
+            1
+          ],
+          "mutant_exit_codes": {
+            "mutant_1": 1,
+            "mutant_2": 1,
+            "mutant_3": 1
+          },
+          "tests": {
+            "ran": true,
+            "total": 97,
+            "failed": [],
+            "tail": "e_filter (filtered_relation.tests.FilteredRelationTests.test_with_multiple_filter) ... ok\ntest_with_prefetch_related (filtered_relation.tests.FilteredRelationTests.test_with_prefetch_related) ... ok\ntest_without_join (filtered_relation.tests.FilteredRelationTests.test_without_join) ... ok\n\n----------------------------------------------------------------------\nRan 97 tests in 0.217s\n\nOK (skipped=1)\nDestroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...\n"
+          },
+          "new_failures": [],
+          "deleted_functions": [],
+          "reward": 1.0,
+          "passed": true,
+          "taxonomy": "pass",
+          "arm": "PLUMB",
+          "instance_id": "django-cve-2026-1312",
+          "split": "ood",
+          "rollout": 1
+        },
+        {
+          "instance": "django-cve-2026-1312",
+          "components": {
+            "poc": 0.25,
+            "mutants": 0.35,
+            "regression": 0.25,
+            "minimality": 0.15
+          },
+          "tamper": false,
+          "flags": [],
+          "poc_exit_codes": [
+            1,
+            1,
+            1
+          ],
+          "mutant_exit_codes": {
+            "mutant_1": 1,
+            "mutant_2": 1,
+            "mutant_3": 1
+          },
+          "tests": {
+            "ran": true,
+            "total": 97,
+            "failed": [],
+            "tail": "e_filter (filtered_relation.tests.FilteredRelationTests.test_with_multiple_filter) ... ok\ntest_with_prefetch_related (filtered_relation.tests.FilteredRelationTests.test_with_prefetch_related) ... ok\ntest_without_join (filtered_relation.tests.FilteredRelationTests.test_without_join) ... ok\n\n----------------------------------------------------------------------\nRan 97 tests in 0.217s\n\nOK (skipped=1)\nDestroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...\n"
+          },
+          "new_failures": [],
+          "deleted_functions": [],
+          "reward": 1.0,
+          "passed": true,
+          "taxonomy": "pass",
+          "arm": "PLUMB",
+          "instance_id": "django-cve-2026-1312",
+          "split": "ood",
+          "rollout": 2
+        },
+        {
+          "instance": "pyjwt-cve-2026-102267",
+          "components": {
+            "poc": 0.25,
+            "mutants": 0.35,
+            "regression": 0.25,
+            "minimality": 0.15
+          },
+          "tamper": false,
+          "flags": [],
+          "poc_exit_codes": [
+            1,
+            1,
+            1
+          ],
+          "mutant_exit_codes": {
+            "mutant_1": 1,
+            "mutant_2": 1,
+            "mutant_3": 1,
+            "mutant_4": 1,
+            "mutant_5": 1,
+            "mutant_6": 1
+          },
+          "tests": {
+            "ran": true,
+            "total": 31,
+            "failed": [],
+            "tail": "...............................                                          [100%]\n31 passed in 4.81s\n"
+          },
+          "new_failures": [],
+          "deleted_functions": [],
+          "reward": 1.0,
+          "passed": true,
+          "taxonomy": "pass",
+          "arm": "PLUMB",
+          "instance_id": "pyjwt-cve-2026-102267",
+          "split": "ood",
+          "rollout": 0
+        },
+        {
+          "instance": "pyjwt-cve-2026-102267",
+          "components": {
+            "poc": 0.25,
+            "mutants": 0.35,
+            "regression": 0.25,
+            "minimality": 0.15
+          },
+          "tamper": false,
+          "flags": [],
+          "poc_exit_codes": [
+            1,
+            1,
+            1
+          ],
+          "mutant_exit_codes": {
+            "mutant_1": 1,
+            "mutant_2": 1,
+            "mutant_3": 1,
+            "mutant_4": 1,
+            "mutant_5": 1,
+            "mutant_6": 1
+          },
+          "tests": {
+            "ran": true,
+            "total": 31,
+            "failed": [],
+            "tail": "...............................                                          [100%]\n31 passed in 4.89s\n"
+          },
+          "new_failures": [],
+          "deleted_functions": [],
+          "reward": 1.0,
+          "passed": true,
+          "taxonomy": "pass",
+          "arm": "PLUMB",
+          "instance_id": "pyjwt-cve-2026-102267",
+          "split": "ood",
+          "rollout": 1
+        },
+        {
+          "instance": "pyjwt-cve-2026-102267",
+          "components": {
+            "poc": 0.25,
+            "mutants": 0.35,
+            "regression": 0.25,
+            "minimality": 0.15
+          },
+          "tamper": false,
+          "flags": [],
+          "poc_exit_codes": [
+            1,
+            1,
+            1
+          ],
+          "mutant_exit_codes": {
+            "mutant_1": 1,
+            "mutant_2": 1,
+            "mutant_3": 1,
+            "mutant_4": 1,
+            "mutant_5": 1,
+            "mutant_6": 1
+          },
+          "tests": {
+            "ran": true,
+            "total": 31,
+            "failed": [],
+            "tail": "...............................                                          [100%]\n31 passed in 4.69s\n"
+          },
+          "new_failures": [],
+          "deleted_functions": [],
+          "reward": 1.0,
+          "passed": true,
+          "taxonomy": "pass",
+          "arm": "PLUMB",
+          "instance_id": "pyjwt-cve-2026-102267",
+          "split": "ood",
+          "rollout": 2
+        },
+        {
+          "instance": "pyjwt-cve-2026-48522",
+          "components": {
+            "poc": 0.25,
+            "mutants": 0.35,
+            "regression": 0.25,
+            "minimality": 0.15
+          },
+          "tamper": false,
+          "flags": [],
+          "poc_exit_codes": [
+            1,
+            1,
+            1
+          ],
+          "mutant_exit_codes": {
+            "mutant_1": 1,
+            "mutant_2": 1,
+            "mutant_3": 1,
+            "mutant_4": 1,
+            "mutant_5": 1
+          },
+          "tests": {
+            "ran": true,
+            "total": 29,
+            "failed": [],
+            "tail": ".............................                                            [100%]\n29 passed in 4.28s\n"
+          },
+          "new_failures": [],
+          "deleted_functions": [],
+          "reward": 1.0,
+          "passed": true,
+          "taxonomy": "pass",
+          "arm": "PLUMB",
+          "instance_id": "pyjwt-cve-2026-48522",
+          "split": "ood",
+          "rollout": 0
+        },
+        {
+          "instance": "pyjwt-cve-2026-48522",
+          "components": {
+            "poc": 0.25,
+            "mutants": 0.35,
+            "regression": 0.25,
+            "minimality": 0.15
+          },
+          "tamper": false,
+          "flags": [],
+          "poc_exit_codes": [
+            1,
+            1,
+            1
+          ],
+          "mutant_exit_codes": {
+            "mutant_1": 1,
+            "mutant_2": 1,
+            "mutant_3": 1,
+            "mutant_4": 1,
+            "mutant_5": 1
+          },
+          "tests": {
+            "ran": true,
+            "total": 29,
+            "failed": [],
+            "tail": ".............................                                            [100%]\n29 passed in 4.17s\n"
+          },
+          "new_failures": [],
+          "deleted_functions": [],
+          "reward": 1.0,
+          "passed": true,
+          "taxonomy": "pass",
+          "arm": "PLUMB",
+          "instance_id": "pyjwt-cve-2026-48522",
+          "split": "ood",
+          "rollout": 1
+        },
+        {
+          "instance": "pyjwt-cve-2026-48522",
+          "components": {
+            "poc": 0.25,
+            "mutants": 0.35,
+            "regression": 0.25,
+            "minimality": 0.15
+          },
+          "tamper": false,
+          "flags": [],
+          "poc_exit_codes": [
+            1,
+            1,
+            1
+          ],
+          "mutant_exit_codes": {
+            "mutant_1": 1,
+            "mutant_2": 1,
+            "mutant_3": 1,
+            "mutant_4": 1,
+            "mutant_5": 1
+          },
+          "tests": {
+            "ran": true,
+            "total": 29,
+            "failed": [],
+            "tail": ".............................                                            [100%]\n29 passed in 4.13s\n"
+          },
+          "new_failures": [],
+          "deleted_functions": [],
+          "reward": 1.0,
+          "passed": true,
+          "taxonomy": "pass",
+          "arm": "PLUMB",
+          "instance_id": "pyjwt-cve-2026-48522",
+          "split": "ood",
+          "rollout": 2
+        }
+      ]
+    }
+  },
+  "decision_rule": {
+    "signal_present": false,
+    "clauses": {},
+    "branch": "no signal / unstable (as measured)",
+    "note": "Pilot decision rule only. These numbers are not evidence for or against SPEC hypotheses H1-H3."
+  }
+}

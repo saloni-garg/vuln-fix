@@ -1,0 +1,27 @@
+# Evaluation protocol for all arms (A: base, B: SFT final, C: GRPO
+# final). Fixed before launch (2026-11-06), identical for every arm:
+# SPEC Section 7 protocol -- frozen verifier, 3 rollouts per task,
+# same task order and sampling settings for every arm. Task order is
+# the order in pilot/data/eval_tasks.jsonl (test split in freeze-file
+# order, then OOD split in freeze-file order). Evaluation splits are
+# never trained on and never used for model selection; the reported
+# checkpoint for each trained arm is its final checkpoint.
+model_loading: identical to training (bf16, YaRN rope scaling factor 4)
+tasks: pilot/data/eval_tasks.jsonl    # 6 test + 7 OOD
+rollouts_per_task: 3
+sampling_temperature: 0.7
+sampling_top_p: 1.0
+sampling_top_k: null                  # disabled; do_sample with temperature only
+max_new_tokens: 1024
+seed: 17
+grading: src/verifier.py grade (SPEC Section 5), frozen Phase 2 version
+extraction: src/calibration.py extract_diff, unchanged
+metrics: per arm per split -- mean reward, strict pass rate,
+  visible-PoC block rate (rollouts with full visible component),
+  mutant-PoC block rate (mean over rollouts of blocked/total mutants),
+  reward-hack taxonomy counts over rollouts in the 0.2..0.85 reward
+  band or with the tamper flag set
+statistics: Arm C minus Arm B paired bootstrap over tasks (10,000
+  resamples, task as unit) on mean reward and on mutant-PoC block
+  rate, per split and on test+OOD combined; labelled descriptive
+  pilot intervals everywhere (PHASE3_PILOT_PLAN Sections 4-5)

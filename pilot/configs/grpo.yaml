@@ -1,0 +1,50 @@
+# Arm C: GRPO on the Section 5 verifier reward, initialised from the
+# Arm B SFT checkpoint. Executable config for the Phase 3 pilot.
+# Fixed before launch (2026-11-06). Any change after launch requires
+# an amendment recorded in pilot/RUN_SHEET.md before results are
+# examined.
+#
+# prompts_per_step is 4 (not the 16 of the gpu-train-debug 3B
+# precedent) for a measured reason fixed here in advance: this
+# environment's reward is an executed grading (PoC runs plus a pinned
+# test suite per completion, ~seconds each), not a string match, and
+# train prompts run to 42955 tokens. 4 prompts x 8 completions = 32
+# graded rollouts per step, 960 over the pilot. Step count and group
+# size are as the pilot plan specifies (about 30 steps, 8 completions
+# per prompt). Prompts are sampled without replacement in shuffled
+# cycles over the 17 train prompts (seed 17), so every train prompt
+# is visited 7-8 times over the run.
+#
+# Implementation: hand-rolled GRPO in the gpu-train-debug pattern --
+# generation with the training model itself (HF generate), one inner
+# epoch per step so importance ratios start at 1.0 and the PPO clip
+# is a guard, group-relative advantages (mean/std within each
+# prompt's 8 completions), clipped surrogate with per-token mean,
+# KL beta 0.0. Long-context loading identical to Arm B (YaRN).
+model: Qwen/Qwen2.5-Coder-7B-Instruct
+init_checkpoint: pilot output of Arm B (final SFT checkpoint)
+data: pilot/data/grpo_train.jsonl     # train split prompts only (17)
+reward: src/verifier.py grade (SPEC Section 5), frozen Phase 2 version
+seed: 17
+full_finetune: true
+precision: bf16
+gradient_checkpointing: true
+rope_scaling: {type: yarn, factor: 4.0, original_max_position_embeddings: 32768}
+optimizer: adamw_torch_fused
+learning_rate: 1.0e-6
+lr_scheduler: constant_with_warmup
+warmup_steps: 2
+weight_decay: 0.0
+max_grad_norm: 1.0
+steps: 30                             # pilot plan: about 30
+prompts_per_step: 4
+group_size_completions_per_prompt: 8  # pilot plan
+sampling_temperature: 0.9
+max_prompt_len: none                  # prompts are never truncated (measured max 42955)
+max_completion_len: 1024
+clip_range: 0.2
+kl_coefficient_beta: 0.0
+inner_epochs_per_step: 1
+micro_batch_sequences: 2              # logprob micro-batch; gradient-equivalent accumulation
+report_checkpoint: final              # step 30, no best-checkpoint selection
+eval_protocol: see pilot/configs/eval.yaml

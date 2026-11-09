@@ -1,0 +1,40 @@
+# Arm B: SFT on gold diffs. Executable config for the Phase 3 pilot.
+# Fixed before launch (2026-11-06). Any change after launch requires
+# an amendment recorded in pilot/RUN_SHEET.md before results are
+# examined.
+#
+# Sequence length: measured during staging with the pinned Qwen2.5
+# tokenizer (pilot/data/lengths.json). Train prompt tokens run
+# 750..42955; prompt+gold runs to 44966 (dulwich-cve-2026-52726).
+# max_seq_len 46080 covers the maximum exactly; the training script
+# asserts no example exceeds it and fails loudly instead of
+# truncating. Prompts are never truncated.
+#
+# Long context: the shipped model config caps positions at 32768,
+# below the longest prompts. All arms (A/B/C, train and eval) load
+# the model with the Qwen long-context recipe -- YaRN rope scaling,
+# factor 4, original_max_position_embeddings 32768 -- applied
+# identically everywhere, so the arm comparison is unaffected. This
+# is a model-loading setting fixed here before launch, not a
+# per-arm choice.
+model: Qwen/Qwen2.5-Coder-7B-Instruct
+init_checkpoint: base model
+data: pilot/data/sft_train.jsonl      # prompt -> gold diff, train split only (17)
+seed: 17
+full_finetune: true
+precision: bf16
+gradient_checkpointing: true
+rope_scaling: {type: yarn, factor: 4.0, original_max_position_embeddings: 32768}
+max_seq_len: 46080
+optimizer: adamw_torch_fused
+learning_rate: 1.0e-5
+lr_scheduler: cosine
+warmup_ratio: 0.03
+weight_decay: 0.0
+epochs: 3                             # per PHASE3_PILOT_PLAN Section 3
+per_device_batch_size: 1
+grad_accum_steps: 8                   # effective batch 8 sequences
+max_grad_norm: 1.0
+logging_steps: 1
+report_checkpoint: final              # end of epoch 3, no checkpoint selection
+eval_protocol: see pilot/configs/eval.yaml
