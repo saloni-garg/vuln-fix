@@ -1,0 +1,23 @@
+# python
+__pycache__/
+*.py[cod]
+.venv/
+.venv-*/
+venv/
+
+# local build state and working snapshots (not part of the release;
+# the cited results files under build/ are tracked explicitly)
+work/
+build/*
+!build/audit_phase1.json
+!build/audit_phase2.json
+!build/pilot_results.json
+!build/pilot_plumbing_results.json
+
+# pilot run artifacts that are not part of the release
+pilot/results/
+pilot/pod_env/*.lock
+
+# misc
+.DS_Store
+*.log
