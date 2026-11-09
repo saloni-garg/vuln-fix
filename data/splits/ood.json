@@ -1,0 +1,44 @@
+[
+  {
+    "instance_id": "django-cve-2024-42005",
+    "cwe": "CWE-89",
+    "repo_url": "https://github.com/django/django.git",
+    "split": "ood"
+  },
+  {
+    "instance_id": "django-cve-2025-57833",
+    "cwe": "CWE-89",
+    "repo_url": "https://github.com/django/django.git",
+    "split": "ood"
+  },
+  {
+    "instance_id": "django-cve-2025-64459",
+    "cwe": "CWE-89",
+    "repo_url": "https://github.com/django/django.git",
+    "split": "ood"
+  },
+  {
+    "instance_id": "django-cve-2026-1287",
+    "cwe": "CWE-89",
+    "repo_url": "https://github.com/django/django.git",
+    "split": "ood"
+  },
+  {
+    "instance_id": "django-cve-2026-1312",
+    "cwe": "CWE-89",
+    "repo_url": "https://github.com/django/django.git",
+    "split": "ood"
+  },
+  {
+    "instance_id": "pyjwt-cve-2026-102267",
+    "cwe": "CWE-918",
+    "repo_url": "https://github.com/jpadilla/pyjwt.git",
+    "split": "ood"
+  },
+  {
+    "instance_id": "pyjwt-cve-2026-48522",
+    "cwe": "CWE-918",
+    "repo_url": "https://github.com/jpadilla/pyjwt.git",
+    "split": "ood"
+  }
+]

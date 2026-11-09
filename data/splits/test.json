@@ -1,0 +1,40 @@
+[
+  {
+    "instance_id": "bleach-cve-2021-23980",
+    "cwe": "CWE-79",
+    "repo_url": "https://github.com/mozilla/bleach.git",
+    "split": "test"
+  },
+  {
+    "instance_id": "gitpython-cve-2023-41040",
+    "cwe": "CWE-22",
+    "repo_url": "https://github.com/gitpython-developers/GitPython.git",
+    "split": "test"
+  },
+  {
+    "instance_id": "mako-cve-2026-41205",
+    "cwe": "CWE-22",
+    "repo_url": "https://github.com/sqlalchemy/mako.git",
+    "split": "test"
+  },
+  {
+    "instance_id": "setuptools-cve-2025-47273",
+    "cwe": "CWE-22",
+    "repo_url": "https://github.com/pypa/setuptools.git",
+    "split": "test"
+  },
+  {
+    "instance_id": "django-cve-2024-39330",
+    "cwe": "CWE-22",
+    "repo_url": "https://github.com/django/django.git",
+    "split": "test",
+    "note": "repo_collision_with_ood"
+  },
+  {
+    "instance_id": "django-cve-2025-59682",
+    "cwe": "CWE-22",
+    "repo_url": "https://github.com/django/django.git",
+    "split": "test",
+    "note": "repo_collision_with_ood"
+  }
+]

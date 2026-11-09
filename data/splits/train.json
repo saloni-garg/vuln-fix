@@ -1,0 +1,104 @@
+[
+  {
+    "instance_id": "aiohttp-cve-2024-23334",
+    "cwe": "CWE-22",
+    "repo_url": "https://github.com/aio-libs/aiohttp.git",
+    "split": "train"
+  },
+  {
+    "instance_id": "aiohttp-cve-2025-69226",
+    "cwe": "CWE-22",
+    "repo_url": "https://github.com/aio-libs/aiohttp.git",
+    "split": "train"
+  },
+  {
+    "instance_id": "dulwich-cve-2026-42563",
+    "cwe": "CWE-78",
+    "repo_url": "https://github.com/dulwich/dulwich.git",
+    "split": "train"
+  },
+  {
+    "instance_id": "dulwich-cve-2026-47712",
+    "cwe": "CWE-22",
+    "repo_url": "https://github.com/dulwich/dulwich.git",
+    "split": "train"
+  },
+  {
+    "instance_id": "dulwich-cve-2026-52726",
+    "cwe": "CWE-22",
+    "repo_url": "https://github.com/dulwich/dulwich.git",
+    "split": "train"
+  },
+  {
+    "instance_id": "jinja2-cve-2024-22195",
+    "cwe": "CWE-79",
+    "repo_url": "https://github.com/pallets/jinja2.git",
+    "split": "train"
+  },
+  {
+    "instance_id": "jinja2-cve-2024-34064",
+    "cwe": "CWE-79",
+    "repo_url": "https://github.com/pallets/jinja2.git",
+    "split": "train"
+  },
+  {
+    "instance_id": "mistune-cve-2026-115355",
+    "cwe": "CWE-22",
+    "repo_url": "https://github.com/lepture/mistune.git",
+    "split": "train"
+  },
+  {
+    "instance_id": "mistune-cve-2026-44708",
+    "cwe": "CWE-79",
+    "repo_url": "https://github.com/lepture/mistune.git",
+    "split": "train"
+  },
+  {
+    "instance_id": "mistune-cve-2026-44896",
+    "cwe": "CWE-79",
+    "repo_url": "https://github.com/lepture/mistune.git",
+    "split": "train"
+  },
+  {
+    "instance_id": "mistune-cve-2026-44897",
+    "cwe": "CWE-79",
+    "repo_url": "https://github.com/lepture/mistune.git",
+    "split": "train"
+  },
+  {
+    "instance_id": "mistune-cve-2026-44898",
+    "cwe": "CWE-79",
+    "repo_url": "https://github.com/lepture/mistune.git",
+    "split": "train"
+  },
+  {
+    "instance_id": "mistune-cve-2026-44899",
+    "cwe": "CWE-79",
+    "repo_url": "https://github.com/lepture/mistune.git",
+    "split": "train"
+  },
+  {
+    "instance_id": "mistune-cve-2026-59923",
+    "cwe": "CWE-79",
+    "repo_url": "https://github.com/lepture/mistune.git",
+    "split": "train"
+  },
+  {
+    "instance_id": "mistune-cve-2026-59924",
+    "cwe": "CWE-22",
+    "repo_url": "https://github.com/lepture/mistune.git",
+    "split": "train"
+  },
+  {
+    "instance_id": "mistune-cve-2026-59926",
+    "cwe": "CWE-79",
+    "repo_url": "https://github.com/lepture/mistune.git",
+    "split": "train"
+  },
+  {
+    "instance_id": "mistune-cve-2026-59929",
+    "cwe": "CWE-79",
+    "repo_url": "https://github.com/lepture/mistune.git",
+    "split": "train"
+  }
+]
