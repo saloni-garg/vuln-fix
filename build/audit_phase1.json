@@ -1632,7 +1632,7 @@
               "file_storage.tests.OverwritingStorageTests.test_makedirs_race_handling",
               "file_storage.tests.OverwritingStorageTests.test_save_overwrite_behavior"
             ],
-            "tail": "home/hatch/workspace/vulnfix-rl/work/snapshots/django-cve-2024-39330/grade/tests/file_storage/test_inmemory_storage.py\", line 59, in test_removing_temporary_file_after_save\n    self.assertFalse(os.path.exists(file.temporary_file_path()))\nAssertionError: True is not false\n\n----------------------------------------------------------------------\nRan 182 tests in 0.642s\n\nFAILED (failures=40, errors=71)\nDestroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...\n"
+            "tail": "work/snapshots/django-cve-2024-39330/grade/tests/file_storage/test_inmemory_storage.py\", line 59, in test_removing_temporary_file_after_save\n    self.assertFalse(os.path.exists(file.temporary_file_path()))\nAssertionError: True is not false\n\n----------------------------------------------------------------------\nRan 182 tests in 0.642s\n\nFAILED (failures=40, errors=71)\nDestroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...\n"
           },
           "new_failures": [
             "file_storage.test_base.StorageValidateFileNameTests.test_validate_after_internal_save",

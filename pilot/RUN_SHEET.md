@@ -179,7 +179,7 @@ totals (those describe the blocked RunPod attempt, Step 1).
   (143771 MiB), 44 CPU, 170GB RAM, 200 GiB disk, FIN-02.
 - Image: Ubuntu 24.04 + CUDA 13.4 (driver 580.178.04), system
   Python 3.12.3, no preinstalled torch.
-- SSH: root@86.38.238.112, the operator ssh key ("hatch").
+- SSH: root@86.38.238.112, the operator ssh key.
   All ssh/scp/rsync used -F /dev/null -o ProxyCommand=none
   -o ProxyJump=none (this machine's default ssh config injects
   a dead proxy). In rsync -e strings the key path must be
