@@ -169,7 +169,11 @@ The shipped build/pilot_plumbing_results.json is that check: 39 of
   pilot results, and the plumbing verification. In the audit and
   plumbing files, mutant payload strings for withheld test and OOD
   instances are replaced by positional labels (mutant_1, mutant_2,
-  and so on); exit codes and all metrics are unchanged.
+  and so on) or, where a payload string appears inside recorded
+  test output, by a withheld-payload marker; exit codes and all
+  metrics are unchanged. The same withholding is applied to the
+  three test-split mutant payloads quoted in the Phase 1 report
+  and the specification amendments in docs/.
 - `WRITEUP.md` - the Phase 4 writeup.
 
 ## Publication scope

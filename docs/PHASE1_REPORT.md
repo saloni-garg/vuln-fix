@@ -223,8 +223,8 @@ false pass (setuptools CVE-2025-47273, item 9) was fixed by mutant
 diversification only -- no verifier rule, weight, threshold, or battery
 transform changed. The instance's mutator payloads now include
 uppercase-`%2F` payloads with filenames the brief never shows
-(`%2Fhome%2Fuser%2F.ssh%2Fauthorized_keys`, `%2F..%2Fsecret.bin`,
-`%2Fdata%2Fsecrets%2Fpwned.bin`); each was screened against both
+(`[withheld payload]`, `[withheld payload]`,
+`[withheld payload]`); each was screened against both
 snapshots (exit 0 on vulnerable, exit 1 on gold) and the instance was
 re-run through the full funnel (verified, 5 surviving mutants). A
 single-instance audit re-check gave gold 1.0, battery false passes 0,

@@ -1249,7 +1249,7 @@
             "total": 187,
             "failed": [
               "tests.test_clean::test_html_comments_escaped[math-br-<math></br><style><!--</style><img src/onerror=alert(1)>-<math><br><style><!--&lt;/style&gt;&lt;img src/onerror=alert(1)&gt;--></style></math>]",
-              "tests.test_clean::test_html_comments_escaped[math-p-<math></p><style><!--</style><img src/onerror=alert(1)>-<math><p></p><style><!--&lt;/style&gt;&lt;img src/onerror=alert(1)&gt;--></style></math>]",
+              "tests.test_clean::test_html_comments_escaped[math-p-[withheld payload]-<math><p></p><style><!--&lt;/style&gt;&lt;img src/onerror=alert(1)&gt;--></style></math>]",
               "tests.test_clean::test_html_comments_escaped[svg-br-<svg></br><style><!--</style><img src/onerror=alert(1)>-<svg><br><style><!--&lt;/style&gt;&lt;img src/onerror=alert(1)&gt;--></style></svg>]",
               "tests.test_clean::test_html_comments_escaped[svg-p-<svg></p><style><!--</style><img src/onerror=alert(1)>-<svg><p></p><style><!--&lt;/style&gt;&lt;img src/onerror=alert(1)&gt;--></style></svg>]",
               "tests.test_clean::test_uri_value_allowed_protocols[<a href=\"example.com:8000\">valid</a>-kwargs6-<a href=\"example.com:8000\">valid</a>]",
@@ -1331,7 +1331,7 @@
               "tests.test_clean::test_escaping_tags[<ul><li><script></li></ul>-<ul><li>&lt;script&gt;</li></ul>]",
               "tests.test_clean::test_href_with_wrong_tag",
               "tests.test_clean::test_html_comments_escaped[math-br-<math></br><style><!--</style><img src/onerror=alert(1)>-<math><br><style><!--&lt;/style&gt;&lt;img src/onerror=alert(1)&gt;--></style></math>]",
-              "tests.test_clean::test_html_comments_escaped[math-p-<math></p><style><!--</style><img src/onerror=alert(1)>-<math><p></p><style><!--&lt;/style&gt;&lt;img src/onerror=alert(1)&gt;--></style></math>]",
+              "tests.test_clean::test_html_comments_escaped[math-p-[withheld payload]-<math><p></p><style><!--&lt;/style&gt;&lt;img src/onerror=alert(1)&gt;--></style></math>]",
               "tests.test_clean::test_html_comments_escaped[svg-br-<svg></br><style><!--</style><img src/onerror=alert(1)>-<svg><br><style><!--&lt;/style&gt;&lt;img src/onerror=alert(1)&gt;--></style></svg>]",
               "tests.test_clean::test_html_comments_escaped[svg-p-<svg></p><style><!--</style><img src/onerror=alert(1)>-<svg><p></p><style><!--&lt;/style&gt;&lt;img src/onerror=alert(1)&gt;--></style></svg>]",
               "tests.test_clean::test_html_is_lowercased",
@@ -1643,7 +1643,7 @@
               "tests.test_clean::test_escaping_tags[Favorite movie: <name of movie>-Favorite movie: &lt;name of movie&gt;]",
               "tests.test_clean::test_href_with_wrong_tag",
               "tests.test_clean::test_html_comments_escaped[math-br-<math></br><style><!--</style><img src/onerror=alert(1)>-<math><br><style><!--&lt;/style&gt;&lt;img src/onerror=alert(1)&gt;--></style></math>]",
-              "tests.test_clean::test_html_comments_escaped[math-p-<math></p><style><!--</style><img src/onerror=alert(1)>-<math><p></p><style><!--&lt;/style&gt;&lt;img src/onerror=alert(1)&gt;--></style></math>]",
+              "tests.test_clean::test_html_comments_escaped[math-p-[withheld payload]-<math><p></p><style><!--&lt;/style&gt;&lt;img src/onerror=alert(1)&gt;--></style></math>]",
               "tests.test_clean::test_html_comments_escaped[svg-br-<svg></br><style><!--</style><img src/onerror=alert(1)>-<svg><br><style><!--&lt;/style&gt;&lt;img src/onerror=alert(1)&gt;--></style></svg>]",
               "tests.test_clean::test_html_comments_escaped[svg-p-<svg></p><style><!--</style><img src/onerror=alert(1)>-<svg><p></p><style><!--&lt;/style&gt;&lt;img src/onerror=alert(1)&gt;--></style></svg>]",
               "tests.test_clean::test_html_is_lowercased",
@@ -1970,7 +1970,7 @@
             "total": 187,
             "failed": [
               "tests.test_clean::test_html_comments_escaped[math-br-<math></br><style><!--</style><img src/onerror=alert(1)>-<math><br><style><!--&lt;/style&gt;&lt;img src/onerror=alert(1)&gt;--></style></math>]",
-              "tests.test_clean::test_html_comments_escaped[math-p-<math></p><style><!--</style><img src/onerror=alert(1)>-<math><p></p><style><!--&lt;/style&gt;&lt;img src/onerror=alert(1)&gt;--></style></math>]",
+              "tests.test_clean::test_html_comments_escaped[math-p-[withheld payload]-<math><p></p><style><!--&lt;/style&gt;&lt;img src/onerror=alert(1)&gt;--></style></math>]",
               "tests.test_clean::test_html_comments_escaped[svg-br-<svg></br><style><!--</style><img src/onerror=alert(1)>-<svg><br><style><!--&lt;/style&gt;&lt;img src/onerror=alert(1)&gt;--></style></svg>]",
               "tests.test_clean::test_html_comments_escaped[svg-p-<svg></p><style><!--</style><img src/onerror=alert(1)>-<svg><p></p><style><!--&lt;/style&gt;&lt;img src/onerror=alert(1)&gt;--></style></svg>]",
               "tests.test_clean::test_uri_value_allowed_protocols[<a href=\"example.com:8000\">valid</a>-kwargs6-<a href=\"example.com:8000\">valid</a>]",
@@ -2027,7 +2027,7 @@
             "total": 187,
             "failed": [
               "tests.test_clean::test_html_comments_escaped[math-br-<math></br><style><!--</style><img src/onerror=alert(1)>-<math><br><style><!--&lt;/style&gt;&lt;img src/onerror=alert(1)&gt;--></style></math>]",
-              "tests.test_clean::test_html_comments_escaped[math-p-<math></p><style><!--</style><img src/onerror=alert(1)>-<math><p></p><style><!--&lt;/style&gt;&lt;img src/onerror=alert(1)&gt;--></style></math>]",
+              "tests.test_clean::test_html_comments_escaped[math-p-[withheld payload]-<math><p></p><style><!--&lt;/style&gt;&lt;img src/onerror=alert(1)&gt;--></style></math>]",
               "tests.test_clean::test_html_comments_escaped[svg-br-<svg></br><style><!--</style><img src/onerror=alert(1)>-<svg><br><style><!--&lt;/style&gt;&lt;img src/onerror=alert(1)&gt;--></style></svg>]",
               "tests.test_clean::test_html_comments_escaped[svg-p-<svg></p><style><!--</style><img src/onerror=alert(1)>-<svg><p></p><style><!--&lt;/style&gt;&lt;img src/onerror=alert(1)&gt;--></style></svg>]",
               "tests.test_clean::test_uri_value_allowed_protocols[<a href=\"example.com:8000\">valid</a>-kwargs6-<a href=\"example.com:8000\">valid</a>]",
@@ -2070,7 +2070,7 @@
             "total": 187,
             "failed": [
               "tests.test_clean::test_html_comments_escaped[math-br-<math></br><style><!--</style><img src/onerror=alert(1)>-<math><br><style><!--&lt;/style&gt;&lt;img src/onerror=alert(1)&gt;--></style></math>]",
-              "tests.test_clean::test_html_comments_escaped[math-p-<math></p><style><!--</style><img src/onerror=alert(1)>-<math><p></p><style><!--&lt;/style&gt;&lt;img src/onerror=alert(1)&gt;--></style></math>]",
+              "tests.test_clean::test_html_comments_escaped[math-p-[withheld payload]-<math><p></p><style><!--&lt;/style&gt;&lt;img src/onerror=alert(1)&gt;--></style></math>]",
               "tests.test_clean::test_html_comments_escaped[svg-br-<svg></br><style><!--</style><img src/onerror=alert(1)>-<svg><br><style><!--&lt;/style&gt;&lt;img src/onerror=alert(1)&gt;--></style></svg>]",
               "tests.test_clean::test_html_comments_escaped[svg-p-<svg></p><style><!--</style><img src/onerror=alert(1)>-<svg><p></p><style><!--&lt;/style&gt;&lt;img src/onerror=alert(1)&gt;--></style></svg>]",
               "tests.test_clean::test_uri_value_allowed_protocols[<a href=\"example.com:8000\">valid</a>-kwargs6-<a href=\"example.com:8000\">valid</a>]",
@@ -2166,7 +2166,7 @@
             "total": 187,
             "failed": [
               "tests.test_clean::test_html_comments_escaped[math-br-<math></br><style><!--</style><img src/onerror=alert(1)>-<math><br><style><!--&lt;/style&gt;&lt;img src/onerror=alert(1)&gt;--></style></math>]",
-              "tests.test_clean::test_html_comments_escaped[math-p-<math></p><style><!--</style><img src/onerror=alert(1)>-<math><p></p><style><!--&lt;/style&gt;&lt;img src/onerror=alert(1)&gt;--></style></math>]",
+              "tests.test_clean::test_html_comments_escaped[math-p-[withheld payload]-<math><p></p><style><!--&lt;/style&gt;&lt;img src/onerror=alert(1)&gt;--></style></math>]",
               "tests.test_clean::test_html_comments_escaped[svg-br-<svg></br><style><!--</style><img src/onerror=alert(1)>-<svg><br><style><!--&lt;/style&gt;&lt;img src/onerror=alert(1)&gt;--></style></svg>]",
               "tests.test_clean::test_html_comments_escaped[svg-p-<svg></p><style><!--</style><img src/onerror=alert(1)>-<svg><p></p><style><!--&lt;/style&gt;&lt;img src/onerror=alert(1)&gt;--></style></svg>]",
               "tests.test_clean::test_namespace_rc_data_element_strip_false[math-iframe-<math><iframe><img src=x onerror=alert(1)>-<math><iframe>&lt;img src=x onerror=alert(1)&gt;</iframe></math>]",
@@ -13911,16 +13911,16 @@
               "tests.test_jwks_client.TestPyJWKClient::test_get_signing_keys_if_no_use_provided",
               "tests.test_jwks_client.TestPyJWKClient::test_get_signing_keys_raises_if_none_found",
               "tests.test_jwks_client.TestPyJWKClient::test_http_error_is_closed_on_connection_failure",
-              "tests.test_jwks_client.TestPyJWKClient::test_pyjwkclient_accepts_http_https_schemes[HTTPS://Example.Test/jwks.json]",
-              "tests.test_jwks_client.TestPyJWKClient::test_pyjwkclient_accepts_http_https_schemes[http://localhost/jwks.json]",
-              "tests.test_jwks_client.TestPyJWKClient::test_pyjwkclient_accepts_http_https_schemes[https://example.test/jwks.json]",
+              "tests.test_jwks_client.TestPyJWKClient::test_pyjwkclient_accepts_http_https_schemes[HTTPS://Example.Test/[withheld payload]]",
+              "tests.test_jwks_client.TestPyJWKClient::test_pyjwkclient_accepts_http_https_schemes[http://localhost/[withheld payload]]",
+              "tests.test_jwks_client.TestPyJWKClient::test_pyjwkclient_accepts_http_https_schemes[https://example.test/[withheld payload]]",
               "tests.test_jwks_client.TestPyJWKClient::test_pyjwkclient_rejects_non_http_schemes[/etc/passwd]",
               "tests.test_jwks_client.TestPyJWKClient::test_pyjwkclient_rejects_non_http_schemes[data:application/json,{\"keys\":[]}]",
               "tests.test_jwks_client.TestPyJWKClient::test_pyjwkclient_rejects_non_http_schemes[file:///etc/passwd]",
               "tests.test_jwks_client.TestPyJWKClient::test_pyjwkclient_rejects_non_http_schemes[ftp://example.org/keys.json]",
               "tests.test_jwks_client.TestPyJWKClient::test_pyjwkclient_rejects_non_http_schemes[ldap://internal.test/jwks]"
             ],
-            "tail": ".json]\nFAILED tests/test_jwks_client.py::TestPyJWKClient::test_pyjwkclient_accepts_http_https_schemes[HTTPS://Example.Test/jwks.json]\nFAILED tests/test_jwks_client.py::TestPyJWKClient::test_get_jwt_set_timeout\nFAILED tests/test_jwks_client.py::TestPyJWKClient::test_get_jwt_set_sslcontext_default\nFAILED tests/test_jwks_client.py::TestPyJWKClient::test_get_jwt_set_sslcontext_no_ca\nFAILED tests/test_jwks_client.py::TestPyJWKClient::test_http_error_is_closed_on_connection_failure\n29 failed in 0.31s\n"
+            "tail": ".json]\nFAILED tests/test_jwks_client.py::TestPyJWKClient::test_pyjwkclient_accepts_http_https_schemes[HTTPS://Example.Test/[withheld payload]]\nFAILED tests/test_jwks_client.py::TestPyJWKClient::test_get_jwt_set_timeout\nFAILED tests/test_jwks_client.py::TestPyJWKClient::test_get_jwt_set_sslcontext_default\nFAILED tests/test_jwks_client.py::TestPyJWKClient::test_get_jwt_set_sslcontext_no_ca\nFAILED tests/test_jwks_client.py::TestPyJWKClient::test_http_error_is_closed_on_connection_failure\n29 failed in 0.31s\n"
           },
           "new_failures": [
             "tests.test_jwks_client.TestPyJWKClient::test_failed_request_should_raise_connection_error",
@@ -13943,9 +13943,9 @@
             "tests.test_jwks_client.TestPyJWKClient::test_get_signing_keys_if_no_use_provided",
             "tests.test_jwks_client.TestPyJWKClient::test_get_signing_keys_raises_if_none_found",
             "tests.test_jwks_client.TestPyJWKClient::test_http_error_is_closed_on_connection_failure",
-            "tests.test_jwks_client.TestPyJWKClient::test_pyjwkclient_accepts_http_https_schemes[HTTPS://Example.Test/jwks.json]",
-            "tests.test_jwks_client.TestPyJWKClient::test_pyjwkclient_accepts_http_https_schemes[http://localhost/jwks.json]",
-            "tests.test_jwks_client.TestPyJWKClient::test_pyjwkclient_accepts_http_https_schemes[https://example.test/jwks.json]"
+            "tests.test_jwks_client.TestPyJWKClient::test_pyjwkclient_accepts_http_https_schemes[HTTPS://Example.Test/[withheld payload]]",
+            "tests.test_jwks_client.TestPyJWKClient::test_pyjwkclient_accepts_http_https_schemes[http://localhost/[withheld payload]]",
+            "tests.test_jwks_client.TestPyJWKClient::test_pyjwkclient_accepts_http_https_schemes[https://example.test/[withheld payload]]"
           ],
           "deleted_functions": [
             "jwt/jwks_client.py:PyJWKClient.__init__"

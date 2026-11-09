@@ -413,7 +413,7 @@ Saloni go at that gate; one go is not a blanket go.
   for three other instances during the build. Fix: the mutator payload
   list now adds uppercase-`%2F` payloads with non-brief filenames (5
   surviving mutants after funnel re-validation, including the payloads
-  `%2Fhome%2Fuser%2F.ssh%2Fauthorized_keys` and `%2F..%2Fsecret.bin`).
+  `[withheld payload]` and `[withheld payload]`).
   No verifier rule, weight, threshold, or battery transform changed.
   The instance was re-run through the full funnel (verified) and a
   single-instance audit re-check gave gold 1.0, battery false passes 0,
