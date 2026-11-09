@@ -4798,7 +4798,7 @@
             "ran": false,
             "total": 0,
             "failed": [],
-            "tail": "hatch/workspace/vulnfix-rl/work/snapshots/django-cve-2025-64459/grade/django/db/models/query.py\", line 1511, in _filter_or_exclude\n    clone._filter_or_exclude_inplace(negate, args, kwargs)\n  File \"work/snapshots/django-cve-2025-64459/grade/django/db/models/query.py\", line 1518, in _filter_or_exclude_inplace\n    self._query.add_q(Q(*args, **kwargs))\n                      ^^^^^^^^^^^^^^^^^^\nTypeError: Node.__init__() got an unexpected keyword argument 'app_label'\n"
+            "tail": "work/snapshots/django-cve-2025-64459/grade/django/db/models/query.py\", line 1511, in _filter_or_exclude\n    clone._filter_or_exclude_inplace(negate, args, kwargs)\n  File \"work/snapshots/django-cve-2025-64459/grade/django/db/models/query.py\", line 1518, in _filter_or_exclude_inplace\n    self._query.add_q(Q(*args, **kwargs))\n                      ^^^^^^^^^^^^^^^^^^\nTypeError: Node.__init__() got an unexpected keyword argument 'app_label'\n"
           },
           "new_failures": [],
           "deleted_functions": [
